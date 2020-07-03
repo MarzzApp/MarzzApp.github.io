@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Paytone+One&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+	--raisin-black: hsla(244, 29%, 19%, 1);
+	--dark-sky-blue: hsla(193, 22%, 80%, 1);
+	--cornsilk: hsla(51, 15%, 95%, 1) !important;
+	--fire-opal: hsla(9, 67%, 87%, 1);
+	--middle-red: hsla(13, 57%, 96%, 1);
+html {
+  scroll-behavior: smooth;
+}
+.navbar-background {
+	background-color: hsla(244, 29%, 19%, 1);
+}
+
+.nav-link {
+	color: white;
+}
+
+body {
+	background: hsla(244, 29%, 19%, 1) !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, div {
+	color: cornsilk;
+}
+.paytone-font {
+	font-family: 'Paytone One', sans-serif;
+}
+.lato-font {
+	font-family: 'Lato', sans-serif;
+}
+.playfair-font {
+	font-family: 'Playfair Display', serif;
+}
+/* Begin Site Styles */
+.intro-jumbo {
+	margin-top: -3em !important;
+	background: hsla(244, 29%, 19%, 1) !important;
+}
+.intro-text {
+	margin: 1.2em;
+}
+.face {
+	font-family: 'Lato', sans-serif;
+}
+.stream {
+	font-family: 'Playfair Display', serif;
+	margin-top: 0.4em;
+	margin-bottom: 0.3em;
+	
+}
+.tog {
+ 	font-family: 'Paytone One', sans-serif;
+}
+.intro-img-container{
+	margin-top: 4em;
+	
+}
+.intro-img {
+	max-width: 40%;
+	height: auto;
+}
